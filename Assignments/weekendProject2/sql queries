@@ -1,0 +1,43 @@
+# Top sold products with their product line
+
+SELECT p.productLine, p.productName  , COUNT(od.orderNumber) AS orderTimes
+FROM products AS p
+JOIN orderdetails AS od
+ON p.productCode = od.productCode
+GROUP BY p.productLine, p.productName
+ORDER BY orderTimes DESC
+
+
+# Top productive employees in each branch with times of sale
+
+SELECT  e.employeeNumber , COUNT(salesRepEmployeeNumber) AS salesTimes, e.officeCode
+FROM employees AS e
+JOIN customers AS c
+ON c.salesRepEmployeeNumber = e.employeeNumber
+GROUP BY employeeNumber, officeCode
+
+
+#  VIP customers with total paid amount
+
+SELECT pr.productLine , c.customerNumber, SUM(p.amount) AS total_amount
+FROM customers AS c
+JOIN payments AS p
+ON c.customerNumber = p.customerNumber
+JOIN orders AS o
+ON c.customerNumber = o.customerNumber
+JOIN orderdetails AS od
+ON od.orderNumber = o.orderNumber
+JOIN products AS pr
+ON pr.productCode = od.productCode
+GROUP BY pr.productLine , c.customerNumber
+order by total_amount DESC
+
+
+# In each product line, number of products and order times beside the total roducts In Stock
+
+SELECT  p.productLine, COUNT(p.productName) AS numProducts , COUNT(o.orderNumber) AS numOrder , SUM( p.quantityInStock) AS totalProductsInStock
+FROM products AS p
+JOIN orderdetails as o
+ON o.productCode = p.productCode
+GROUP BY  p.productLine
+ORDER BY  totalProductsInStock DESC
