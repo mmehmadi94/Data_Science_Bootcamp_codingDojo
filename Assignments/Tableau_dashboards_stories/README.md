@@ -9,6 +9,7 @@ Dataset: [UK car accidents Kaggle](https://www.kaggle.com/silicon99/dft-accident
 
 Dashboard link: https://public.tableau.com/views/UK_Car_Accidents_2005_2015_Dashboard/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
+![UK Car Accidents Dashboard](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/UK%20car%20accidents%20dashboard.png)
 
 ## Comparing Unemployment Rate for Three Countries (Saudi Arabia, Korea and India) Story
 
