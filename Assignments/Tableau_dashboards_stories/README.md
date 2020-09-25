@@ -17,6 +17,7 @@ Dataset: [World Development Indicators](https://databank.worldbank.org/source/wo
 
 Story link: https://public.tableau.com/shared/BRZKSCN26?:display_count=n&:origin=viz_share_link
 
+![Unemployemt Rate Story](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/unemployment%20rate%20Story.png)
 
 ## World Power Plants - Global Energy Observatory Story
 
@@ -24,3 +25,4 @@ Dataset:[KAPSARC Data Portal](https://datasource.kapsarc.org/explore/dataset/wor
 
 Story link: https://public.tableau.com/shared/YYRF24KJG?:display_count=y&:origin=viz_share_link
 
+![world Power Plant](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/World%20power%20plant%20Story.png)
