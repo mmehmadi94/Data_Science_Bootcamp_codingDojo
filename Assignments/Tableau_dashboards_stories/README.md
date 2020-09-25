@@ -29,4 +29,4 @@ Dataset:[KAPSARC Data Portal](https://datasource.kapsarc.org/explore/dataset/wor
 
 Story link: https://public.tableau.com/shared/YYRF24KJG?:display_count=y&:origin=viz_share_link
 
-![world Power Plant](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/World%20power%20plant%20Story.png)
+![world Power Plant](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/World%20Power%20Plants%20Story.png)
