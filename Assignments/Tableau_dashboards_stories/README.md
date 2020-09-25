@@ -19,7 +19,7 @@ Dataset: [World Development Indicators](https://databank.worldbank.org/source/wo
 
 Story link: https://public.tableau.com/shared/BRZKSCN26?:display_count=n&:origin=viz_share_link
 
-![Unemployemt Rate Story](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/unemployment%20rate%20Story.png)
+![Unemployemt Rate Story](https://public.tableau.com/views/UnemploymentRateforSauidArabiaKoreanandIndia/Story1?:language=en&:display_count=y&:origin=viz_share_link)
 
 ## World Power Plants - Global Energy Observatory Story
 
