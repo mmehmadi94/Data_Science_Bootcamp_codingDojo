@@ -11,6 +11,8 @@ Dashboard link: https://public.tableau.com/views/UK_Car_Accidents_2005_2015_Dash
 
 ![UK Car Accidents Dashboard](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/UK%20car%20accidents%20dashboard.png)
 
+This dataset contained information about car accidents in United State from 2005 until 2015. The group of visualization above shows age and sex of driver that caused most of acciedents with packed bubble chart. In line chart, we can see a general decrease in the number of accidents during the period 2005 - 2015. Simple heat map shows, the frequency of accidents concerning the time of the day and the total car accidents and road type that accident was occured per day of the week in stacked bar chart.
+
 ## Comparing Unemployment Rate for Three Countries (Saudi Arabia, Korea and India) Story
 
 Dataset: [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
