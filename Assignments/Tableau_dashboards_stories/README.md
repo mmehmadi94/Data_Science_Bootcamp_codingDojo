@@ -17,9 +17,9 @@ This dataset contained information about car accidents in United State from 2005
 
 Dataset: [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
 
-Story link: https://public.tableau.com/shared/BRZKSCN26?:display_count=n&:origin=viz_share_link
+Story link: https://public.tableau.com/views/UnemploymentRateforSauidArabiaKoreanandIndia/Story1?:language=en&:display_count=y&:origin=viz_share_link
 
-![Unemployemt Rate Story](https://public.tableau.com/views/UnemploymentRateforSauidArabiaKoreanandIndia/Story1?:language=en&:display_count=y&:origin=viz_share_link)
+![Unemployemt Rate Story](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/unemployment%20rate%20Story.png)
 
 ## World Power Plants - Global Energy Observatory Story
 
