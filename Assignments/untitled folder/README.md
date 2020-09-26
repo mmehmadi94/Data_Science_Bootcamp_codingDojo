@@ -1,10 +1,12 @@
-# Weekend Project
+# Quantitative analysis
 
+Conduct quantitative analysis of the example dataset in a team of 2-3.  Explore all of the example data and prepare a report for presentation using the data aggregation functions. 
 
-Create a database for corporation XYZ by modifying the [.sql scripts](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/weekendProject2/datasets/mysqlsampledatabase.zip) used to create the example database used today. Populate
-the databases with example data and create a report/dashboard using a combination of spreadsheets and database queries.
+Develop a hypothesis
+- Find some data
 
+- Use some of the data aggregation functions, regression or other methods to test your hypothesis
 
+- Come up with a prediction
 
-![ERP diagram](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/weekendProject2/MySQL-Sample-Database-Schema.png)
-
+- Develop some suggestions for implementing your findings
