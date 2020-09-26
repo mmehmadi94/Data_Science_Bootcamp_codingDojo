@@ -9,7 +9,7 @@ Dataset: [UK car accidents Kaggle](https://www.kaggle.com/silicon99/dft-accident
 
 Dashboard link: https://public.tableau.com/views/UK_Car_Accidents_2005_2015_Dashboard/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
-![UK Car Accidents Dashboard](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/UK%20car%20accidents%20dashboard.png)
+![UK Car Accidents Dashboard](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/UK%20car%20accidents%20Dashboard.png)
 
 This dataset contained information about car accidents in United State from 2005 until 2015. The group of visualization above shows age and sex of driver that caused most of acciedents with packed bubble chart. In line chart, we can see a general decrease in the number of accidents during the period 2005 - 2015. Simple heat map shows, the frequency of accidents concerning the time of the day and the total car accidents and road type that accident was occured per day of the week in stacked bar chart.
 
@@ -19,7 +19,7 @@ Dataset: [World Development Indicators](https://databank.worldbank.org/source/wo
 
 Story link: https://public.tableau.com/views/UnemploymentRateforSauidArabiaKoreanandIndia/Story1?:language=en&:display_count=y&:origin=viz_share_link
 
-![Unemployemt Rate Story](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/unemployment%20rate%20Story.png)
+![Unemployemt Rate Story](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/Unemployment%20Rate%20Story.png)
 
 World development indector database contained information about development indector (a numerical measure of quality of life) for all world countries. Indicators are used to illustrate progress of a country in meeting a range of economic, social, and environmental goals. To construct a simple dashboard, I have selected three countries Saudi Arabia, Korea and India to measure unemployemnet rate indicator from 2010 until now. The story above was divided into four sections, each section shows different aspect. First one shows which countries has the hight unemployment rate in general, Second one is the unemployment rate for male and femelae. The third section, share of youth not in education, employment or training for both gender of total youth population. The last section the unemployment rate based on education background (Basic, Intermidate, Advanced education).
 
@@ -29,6 +29,6 @@ Dataset:[KAPSARC Data Portal](https://datasource.kapsarc.org/explore/dataset/wor
 
 Story link: https://public.tableau.com/shared/YYRF24KJG?:display_count=y&:origin=viz_share_link
 
-![world Power Plant](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/World%20Power%20Plants%20Story.png)
+![world Power Plant](https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Assignments/Tableau_dashboards_stories/Power%20Plant%20Story.png)
 
 This database logs major power plants across the world. The database can tell us power plants location, type of plant  (coal, gas, geothermal, hydro ..etc), type of ownership, the operating company..etc. The story above shows the number of power plants in world countries per type of plant. Also, shows the top five countries that have highest number of plants in each type of plant, type and name of power plant that has high enviromental impact, the top 10 power plants that have highest capital cost in addition to the type of ownership of that plant (by goverment or another orgnization) and plant status per type of plant and capital cost. The plant status in the database are operating partially, operating fully, under construction, buildt and in test stage, mothballed full, final bid and approval stage and decommissioned.
