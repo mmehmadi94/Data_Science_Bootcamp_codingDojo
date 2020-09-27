@@ -1,12 +1,7 @@
-# Quantitative analysis
+# Simulation Black Jack Game using R 
 
-Conduct quantitative analysis of the example dataset in a team of 2-3.  Explore all of the example data and prepare a report for presentation using the data aggregation functions. 
+Use all the previous scripts and functions to simulate 10,000 blackjack hands and calculate the profit to the casino.
 
-Develop a hypothesis
-- Find some data
+Use this article to guide you on payouts and decide if you are using a single deck or 7 decks
 
-- Use some of the data aggregation functions, regression or other methods to test your hypothesis
-
-- Come up with a prediction
-
-- Develop some suggestions for implementing your findings
+https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos
