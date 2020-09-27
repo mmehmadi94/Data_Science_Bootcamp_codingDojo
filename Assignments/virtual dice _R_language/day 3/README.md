@@ -1,12 +1,8 @@
-# Quantitative analysis
+# Black Jack game using R
 
-Conduct quantitative analysis of the example dataset in a team of 2-3.  Explore all of the example data and prepare a report for presentation using the data aggregation functions. 
+Modify the player strategy script to include players one and two. Use different strategies for each player
 
-Develop a hypothesis
-- Find some data
+Use this link for different BlackJack Strategies: https://en.wikipedia.org/wiki/Blackjack#Blackjack_strategy
 
-- Use some of the data aggregation functions, regression or other methods to test your hypothesis
-
-- Come up with a prediction
-
-- Develop some suggestions for implementing your findings
+ - Create two different player strategies for "p1" and "p2"
+ - Code those strategies into the script that has the dealer strategy
