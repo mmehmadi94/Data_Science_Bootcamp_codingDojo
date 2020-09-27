@@ -1,12 +1,7 @@
-# Quantitative analysis
+# Virtual Dice using R
 
-Conduct quantitative analysis of the example dataset in a team of 2-3.  Explore all of the example data and prepare a report for presentation using the data aggregation functions. 
+1. Create a 10 sided dice and a 20 sided dice.
 
-Develop a hypothesis
-- Find some data
+2. Create a function to roll 6 of these dice at a time and calculate the sum and
 
-- Use some of the data aggregation functions, regression or other methods to test your hypothesis
-
-- Come up with a prediction
-
-- Develop some suggestions for implementing your findings
+3. another function to calculate how many dice rolled more than 6 (for the 10 sided) or 16 (for the 20 sided).
