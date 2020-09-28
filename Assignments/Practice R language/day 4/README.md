@@ -1,7 +1,8 @@
-# Virtual Dice using R
+ # Simulation Black Jack Game using R 
 
-1. Create a 10 sided dice and a 20 sided dice.
+Use all the previous scripts and functions to simulate 10,000 blackjack hands and calculate the profit to the casino.
 
-2. Create a function to roll 6 of these dice at a time and calculate the sum and
+Use this article to guide you on payouts and decide if you are using a single deck or 7 decks
 
-3. another function to calculate how many dice rolled more than 6 (for the 10 sided) or 16 (for the 20 sided).
+https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos
+

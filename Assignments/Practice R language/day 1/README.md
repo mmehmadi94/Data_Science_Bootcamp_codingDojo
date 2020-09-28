@@ -1,7 +1,8 @@
-# Dealing cards in hearts and blackjack
+# Virtual Dice using R
 
-Now that you have decks of cards for both blackjack and hearts, write a couple of custom functions to shuffle a playing deck and deal the necessary cards for 2 players (and a dealer in the case of blackjack). Let's start making our own casino in R
+1. Create a 10 sided dice and a 20 sided dice.
 
--  Write custom functions for shuffling the deck
--  Write a custom function for dealing cards to 2 players in hearts
--  write a custom function for dealing cards to 2 players and a dealer in blackjack
+2. Create a function to roll 6 of these dice at a time and calculate the sum and
+
+3. another function to calculate how many dice rolled more than 6 (for the 10 sided) or 16 (for the 20 sided).
+

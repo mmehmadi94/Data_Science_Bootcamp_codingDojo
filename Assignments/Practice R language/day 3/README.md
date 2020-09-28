@@ -1,7 +1,10 @@
-# Simulation Black Jack Game using R 
 
-Use all the previous scripts and functions to simulate 10,000 blackjack hands and calculate the profit to the casino.
+# Black Jack game using R
 
-Use this article to guide you on payouts and decide if you are using a single deck or 7 decks
+Modify the player strategy script to include players one and two. Use different strategies for each player
 
-https://en.wikipedia.org/wiki/Blackjack#Rules_of_play_at_casinos
+Use this link for different BlackJack Strategies: https://en.wikipedia.org/wiki/Blackjack#Blackjack_strategy
+
+ - Create two different player strategies for "p1" and "p2"
+ - Code those strategies into the script that has the dealer strategy
+ 

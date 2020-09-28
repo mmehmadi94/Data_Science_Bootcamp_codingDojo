@@ -1,8 +1,8 @@
-# Black Jack game using R
+# Dealing cards in hearts and blackjack
 
-Modify the player strategy script to include players one and two. Use different strategies for each player
+Now that you have decks of cards for both blackjack and hearts, write a couple of custom functions to shuffle a playing deck and deal the necessary cards for 2 players (and a dealer in the case of blackjack). Let's start making our own casino in R
 
-Use this link for different BlackJack Strategies: https://en.wikipedia.org/wiki/Blackjack#Blackjack_strategy
+-  Write custom functions for shuffling the deck
+-  Write a custom function for dealing cards to 2 players in hearts
+-  write a custom function for dealing cards to 2 players and a dealer in blackjack
 
- - Create two different player strategies for "p1" and "p2"
- - Code those strategies into the script that has the dealer strategy
