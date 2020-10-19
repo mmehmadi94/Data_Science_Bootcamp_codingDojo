@@ -1,4 +1,5 @@
-
+# Write a function that takes marginals and conditionals as inputs 
+# and calculates the all the conditionals, marginals and joints
 
 #         p(y=0)  p(y=5) p(y=10) p(y=15)  total
 # p(x=0)  0.02    0.06    0.02    0.10    0
