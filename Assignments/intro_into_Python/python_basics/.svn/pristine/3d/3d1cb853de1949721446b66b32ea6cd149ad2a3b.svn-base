@@ -1,0 +1,620 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1>Booleans and Conditional Logic</h1>\n",
+    "\n",
+    "<h2>Objectives</h2>\n",
+    "\n",
+    "* What are booleans\n",
+    "* Conditional logic\n",
+    "* Optional-What is considered False in Python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2> Booleans </h2>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- The following are considered False\n",
+    "    - None\n",
+    "    - False\n",
+    "    - zero of any numeric type, for example, 0, 0L, 0.0, 0j\n",
+    "    - any empty sequence, for example, '', (), []\n",
+    "    - Any empty mapping, for example, {}\n",
+    "    - Instances of user-defined class, if the class defines a _nonzero_() or __len__() method, with returns False\n",
+    "- Everything else is True"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2>Comparison Operator</h2>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<table>\n",
+    "  <colgroup span=\"4\"></colgroup>\n",
+    "  <tr>\n",
+    "    <th>Comparison Operator</th>\n",
+    "    <th>Meaning</th>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td><</td>\n",
+    "    <td>less than</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td><=</td>\n",
+    "    <td>less than or equal to</td>\n",
+    "  </tr>    \n",
+    "  <tr>\n",
+    "    <td>></td>\n",
+    "    <td>greater than</td>\n",
+    "</tr>\n",
+    "  <tr>\n",
+    "    <td>>=</td>\n",
+    "    <td>greater than or equal to</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td>==</td>\n",
+    "    <td>equal</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td>!=</td>\n",
+    "    <td>not equal</td>\n",
+    "  </tr>\n",
+    "</table>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2> If Statements </h2>\n",
+    "- Check if something is True, if it is, do it. If it is not True (False), don't do it"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Comparison Operator | Function\n",
+    "--- | --- \n",
+    "< | less than\n",
+    "<= | less than or equal to\n",
+    "> | greater than\n",
+    ">= | greater than or equal to\n",
+    "== | equal\n",
+    "!= | not equal"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Notice you have to indent after you start a if statement.  Write a proper if statement.\n",
+    "num = 213\n",
+    "if num == 3:\n",
+    "    print(num)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Write some code for a false if statement. For example write a condition where nothing is output because num > 10 is FALSE. \n",
+    "num = 3\n",
+    "if num > 10:\n",
+    "    print(num)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fizz\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check a number, if it's divisible by three then print 'Fizz'\n",
+    "num = 3\n",
+    "if num % 3 == 0:\n",
+    "    print(\"Fizz\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Buzz\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Check a number, if it's divisible by five then print 'buzz'\n",
+    "num = 10\n",
+    "if num % 5 == 0:\n",
+    "    print(\"Buzz\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Will this wrk?\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Use the 'True' and 'False' Keywords in a condition\n",
+    "# for True\n",
+    "if True:\n",
+    "    print(\"Will this wrk?\")\n",
+    "if False:\n",
+    "    print(\"Will this wrk?\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Use the 'True' and 'False' Keywords in a condition\n",
+    "# for False"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Logical Operator | Description\n",
+    "--- | ---\n",
+    "and | If both the operands are True then condition becomes True.\n",
+    "or | If any of the two operands are True then condition becomes True. \n",
+    "not | Used to reverse the logical (not False becomes True, not True becomes False)\n",
+    "\n",
+    "\n",
+    "<table>\n",
+    "  <colgroup span=\"4\"></colgroup>\n",
+    "  <tr>\n",
+    "    <th>Logical Operator</th>\n",
+    "    <th>Meaning</th>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td>and</td>\n",
+    "    <td>If both the operands are True then condition becomes True.</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td>or</td>\n",
+    "    <td>If any of the two operands are True then condition becomes True.</td>\n",
+    "  </tr>    \n",
+    "  <tr>\n",
+    "    <td>not</td>\n",
+    "    <td>Used to reverse the logical (not False becomes True, not True becomes False)</td>\n",
+    "</tr>\n",
+    "</table>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "num = 4\n",
+    "num > 0 and num  < 15 and num > 14"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# both the conditions are true, so the num will be printed out\n",
+    "if num > 0 and num  < 15:\n",
+    "    print(num)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# num > 0 is True, num > 15 is False\n",
+    "# Since the first condition is True, it is True\n",
+    "num = 4\n",
+    "num > 0 or num  > 15"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "num > 0 or num  > 15"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "if num > 0 or num  > 15:\n",
+    "    print(num)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# or will only evaluate to False if both are False\n",
+    "if False or False:\n",
+    "    print('Nothing will print out')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "num = 10\n",
+    "not num < 20 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2> else statement </h2>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Must be after an if or elif statement. There can be at most one else statement. Will only be executed if all the \"if\" and \"elif\" statements above it are False. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num = 1\n",
+    "if num > 3 :\n",
+    "    print(\"Hi\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"We will execute what is inside the else statement\n",
+    "because num is not greater than 3\n",
+    "\"\"\"\n",
+    "num = 4\n",
+    "if num > 3 :\n",
+    "    print(\"Hi\")\n",
+    "else: \n",
+    "    print(\"number is not greater than 3\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi Class!!! hope you are enjoying it so far\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = 4\n",
+    "if num > 5:\n",
+    "    print('hi')\n",
+    "else:\n",
+    "    print('Hi Class!!! hope you are enjoying it so far')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"We will execute what is inside the if statement because num > 4\"\"\"\n",
+    "num = 4\n",
+    "if num > 3 :\n",
+    "    print(\"Hi\")\n",
+    "else: \n",
+    "    print(\"number is not greater than 3\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2> Mini Task </h2>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "1. Assign a variable <b>num</b> to an integer value.\n",
+    "2. Write an if else combination that will print \"Your integer is even\" if the integer is even. Otherwise, print \"Your integer is odd\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "EVEN Number\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = 50\n",
+    "if num % 2 == 0:\n",
+    "    print(\"EVEN Number\")\n",
+    "else:\n",
+    "    print(\"ODD Number\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## elif statement"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Must be after an if statement. elif statement statement allows you to check multiple expressions for True and execute a block of code as soon as one of the conditions evaluates to True.\n",
+    "\n",
+    "Similar to the else, the elif statement is optional. However, unlike else, for which there can be at most one statement, there can be an arbitrary number of elif statements following an if."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "num = 21!!!\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = 21\n",
+    "if num > 50:\n",
+    "    print('num is larger than 50')\n",
+    "elif num == 21:\n",
+    "    print('num = 21!!!')\n",
+    "else:\n",
+    "    print('Catchall condition')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Your number is odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_num = 5\n",
+    "if my_num % 2 == 0:\n",
+    "    print(\"Your number is even\")\n",
+    "elif my_num % 2 != 0:\n",
+    "    print(\"Your number is odd\")\n",
+    "else: \n",
+    "    print(\"Are you sure your number is an integer?\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Pass Statement\n",
+    "- Sometimes you want an empty block\n",
+    "    - Maybe you commented out some code\n",
+    "    - Maybe you are sketching out some structure\n",
+    "- The pass keyword keeps things running"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Doesnt lead to error\n",
+    "if True: \n",
+    "    pass\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Error! You need indented blocks\n",
+    "if True:\n",
+    "    #print('Hey!!!!')\n",
+    "    pass"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "anaconda-cloud": {},
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}

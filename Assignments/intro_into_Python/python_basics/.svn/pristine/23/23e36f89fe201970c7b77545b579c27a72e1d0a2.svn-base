@@ -1,0 +1,301 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1>Print Function, Strings, and Variables</h1>\n",
+    "\n",
+    "<h2>Objectives</h2>\n",
+    "<ul>\n",
+    "    <li>How to use the print function</li>\n",
+    "    <li>What are strings</li>\n",
+    "    <li>Creating a variable</li>\n",
+    "    <li>String methods</li>\n",
+    "</ul>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2> How to use the print function</h2>\n",
+    "One of the first programs people write in Python is by using a `print()` function to output Hello World. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Try it here\n",
+    "print('Hello World')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "# This is a comment which you can think of as a note to the programmer\n",
+    "print('Hello World')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2>What are strings</h2>\n",
+    "Strings are a primitive data type of the Python language. You can thing of a data type as a building block of a language. The content inside the print function is a string. You can see this by using the type function. We will get into other primitive (integers, float, booleans) as well as non primitive (lists, tuples, dictionaries) types later in the course. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Strings can be enclosed by ',\", or \"\"\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Single quotes\n",
+    "print('Hello World')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Double quotes\n",
+    "print(\"Hello World\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In the code above, there are comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. Comments are to clarify code and are not interpreted by Python so they may be omitted when you put code into Google Colab. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2>Creating a variable\n",
+    "</h2>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Variables are used to store information to be referenced and manipulated in a computer program. If you are coming from other programming languages, here are a few things to consider. \n",
+    "\n",
+    "<ul>\n",
+    "    <li>You do not declare the type</li>\n",
+    "    <li>Variables are not strongly-typed (but types are)</li>\n",
+    "    <li>You can discover current type of a variable by using type()</li>\n",
+    "</ul>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jeff\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Assign string \"Jeff\" to variable name\n",
+    "name = \"Jeff\"\n",
+    "\n",
+    "# Print variable name\n",
+    "print(name)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2>String Methods\n",
+    "</h2>\n",
+    "Strings are a special type of a python class. What this means for you is that you can call methods on string objects using the .methodName() notation. Let's first create a string. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Multiple line string\n",
+    "popularLyric  = \"\"\"Blackbird singing in the dead of night Take these broken wings and learn to fly All your life You were only waiting for this moment to arise\"\"\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "From there, depending on your browser, you can use a period to see the available methods available to you. If you can't see the options, you can always google python string methods.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "I encourage you to try out various methods and see the effects they have. \n",
+    "#lower,upper,title"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'blackbird singing in the dead of night take these broken wings and learn to fly all your life you were only waiting for this moment to arise'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "popularLyric.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'BLACKBIRD SINGING IN THE DEAD OF NIGHT TAKE THESE BROKEN WINGS AND LEARN TO FLY ALL YOUR LIFE YOU WERE ONLY WAITING FOR THIS MOMENT TO ARISE'"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "popularLyric.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Blackbird Singing In The Dead Of Night Take These Broken Wings And Learn To Fly All Your Life You Were Only Waiting For This Moment To Arise'"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "popularLyric.title()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'str' object has no attribute 'camelcase'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-17-11f422ba17cc>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mpopularLyric\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mcamelcase\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m: 'str' object has no attribute 'camelcase'"
+     ]
+    }
+   ],
+   "source": [
+    "popularLyric.camelcase()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "anaconda-cloud": {},
+  "celltoolbar": "Slideshow",
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}
