@@ -18,7 +18,13 @@ for instance, among 250 resume, there are just 4 to 6 resume match job requireme
 
 ### Scoring
 
+Cosine similarity  is the  simplest way to build a vector from text by count the words.
+
+It’s simply measures the angle between the two vectors and returns a real value between -1 and 1.
 
 
+### Visualization
+
+the output is a bar chart sorted descending to show the best candidates for the job description.
 
 <p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/Resumes_scores.png" width="700" height="400"></p>
