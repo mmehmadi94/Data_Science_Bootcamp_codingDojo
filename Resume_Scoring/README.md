@@ -9,11 +9,14 @@ When a company post a job offer, it receives hundreds resumes. so, manual CV scr
 
 for instance, among 250 resume, there are just 4 to 6 resume match job requirement and they are eligible to move to next phase which is interviews.
 
+<p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/Resumes-Stats.jpg" width="700" height="400"></p>
+
 ### Data Gathering
 
 - A document file for a job description of Data Scientist role in Elm company
 - 15 randomly resumes were collected from Resume Genius website for various fileds  (example Data Analyst, Data Scientist, Business Analyst, BI analyst, IT manager, Web developer and Java developer....)
 
+### Scoring
 
 
 
