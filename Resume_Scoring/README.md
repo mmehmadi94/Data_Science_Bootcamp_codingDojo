@@ -25,6 +25,11 @@ It’s simply measures the angle between the two vectors and returns a real valu
 
 ### Visualization
 
-the output is a bar chart sorted descending to show the best candidates for the job description.
+The output is a bar chart sorted descending to show the best candidates for the job description.
 
 <p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/Resumes_scores.png" width="700" height="400"></p>
+
+The distribution of resume scores
+
+<p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/score_distribution.png" width="700" height="400"></p>
+
