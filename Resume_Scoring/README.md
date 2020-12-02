@@ -13,8 +13,10 @@ for instance, among 250 resume, there are just 4 to 6 resume match job requireme
 
 ### Data Gathering
 
-- A document file for a job description of Data Scientist role in Elm company
-- 15 randomly resumes were collected from Resume Genius website for various fileds  (example Data Analyst, Data Scientist, Business Analyst, BI analyst, IT manager, Web developer and Java developer....)
+- Job description of Data Scientist role in Elm company in document format from [Data Scientist in Elm company](https://www.linkedin.com/jobs/view/data-scientist-deep-learning-consultant-at-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B9%D9%84%D9%85-1468946631/?refId=3c37fe28-5f30-42c9-b9da-02866f173575&originalSubdomain=sa)
+
+- 15 randomly resumes were collected from Resume Genius website for various fileds [resume Genius website](https://resumegenius.com/)  
+for example Data Analyst, Data Scientist, Business Analyst, BI analyst, IT manager, Web developer and Java developer....
 
 ### Scoring
 
