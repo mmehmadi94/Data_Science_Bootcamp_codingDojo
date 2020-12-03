@@ -3,7 +3,7 @@
 
 The objective of the project is to create a Resume Scoring algorithm to identify the most suitable candidates. The algorithm will parse resumes one by one and will give a score for the similarity between it and the job description. 
 
-# Problem Statement
+## Problem Statement
 
 When a company post a job offer, it receives hundreds resumes. so, manual CV screening needs a lot of effort and time.
 
