@@ -10,7 +10,7 @@ for instance, among 250 resume, there are just 4 to 6 resume match job requireme
 
 <p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/Resumes-Stats.jpg" width="700" height="400"></p>
 
-**Research Questions**
+### **Research Questions**
 
 I do analysis to discover which resumes has been met the skills required in the job description 
  
