@@ -2,7 +2,7 @@
 
 
 
-This folder hosts my submission of the final project for the Coding Dojo Data Science Immersive Bootcamp. [coding dojo website](https://www.codingdojo.com/) and [Saudi Digital Academy](https://sda.edu.sa/)
+This folder hosts my submission of the final project for the [Coding Dojo] (https://www.codingdojo.com/) Data Science Immersive Bootcamp and [Saudi Digital Academy](https://sda.edu.sa/)
 
 The objective of this final project is to create a Resume Scoring algorithm to identify the most suitable candidates. The algorithm will parse resumes one by one and will give a score for the similarity between it and the job description. 
 
