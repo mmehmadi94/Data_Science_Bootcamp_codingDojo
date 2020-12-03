@@ -1,6 +1,8 @@
 # <div align="center"> Resume Scoring  </div>
 
-This folder hosts my submission of the final project for the Coding Dojo Data Science Immersive Bootcamp. The objective of this final project is to create a Resume Scoring algorithm to identify the most suitable candidates. The algorithm will parse resumes one by one and will give a score for the similarity between it and the job description. 
+This folder hosts my submission of the final project for the Coding Dojo Data Science Immersive Bootcamp. 
+
+The objective of this final project is to create a Resume Scoring algorithm to identify the most suitable candidates. The algorithm will parse resumes one by one and will give a score for the similarity between it and the job description. 
 
 ## Problem Statement
 
