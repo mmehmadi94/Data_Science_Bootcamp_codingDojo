@@ -1,7 +1,7 @@
 # <div align="center"> Resume Scoring Final Project </div> 
 
-- Author: Manal Almehmadi
-- #### Dec 3rd, 2020
+#### Author: Manal Almehmadi
+#### Dec 3rd, 2020
 
 
 This folder hosts my submission of the final project for the [Coding Dojo](https://www.codingdojo.com/) Data Science Immersive Bootcamp and [Saudi Digital Academy](https://sda.edu.sa/)
