@@ -10,7 +10,10 @@ for instance, among 250 resume, there are just 4 to 6 resume match job requireme
 
 <p align="center"><img src="https://github.com/mmehmadi94/Data_Science_Bootcamp_codingDojo/blob/master/Resume_Scoring/Resumes-Stats.jpg" width="700" height="400"></p>
 
+**Research Questions**
 
+I do analysis to discover which resumes has been met the skills required in the job description 
+ 
 # Data Gathering
 
 - Job description of Data Scientist role in Elm company in document format from [Data Scientist in Elm company](https://www.linkedin.com/jobs/view/data-scientist-deep-learning-consultant-at-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B9%D9%84%D9%85-1468946631/?refId=3c37fe28-5f30-42c9-b9da-02866f173575&originalSubdomain=sa)
