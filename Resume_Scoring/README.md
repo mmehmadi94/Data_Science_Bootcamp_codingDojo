@@ -1,6 +1,4 @@
-# Resume Scoring 
-
-<div align="center"> Resume Scoring  </div>
+# <div align="center"> Resume Scoring  </div>
 
 
 The objective of the project is to create a Resume Scoring algorithm to identify the most suitable candidates. The algorithm will parse resumes one by one and will give a score for the similarity between it and the job description. 
